@@ -1,0 +1,105 @@
+/* Style for the container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #dac4c4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for the To-Do List header */
+  .todo-app h2 {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .todo-app img {
+    margin-left: 10px;
+    width: 30px;
+  }
+  
+  /* Style for the input and button */
+  .todo-app .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .todo-app input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-app button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .todo-app button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Style for the task list */
+  .todo-app ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .todo-app li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    background-color: #b89995;
+  }
+  .todo-app li:hover{
+    background-color: #e9e3e3;
+  }
+  
+  .todo-app li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Style for the task checkbox */
+  .todo-app input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Style for the task label */
+  .todo-app label {
+    flex: 1;
+    word-break: break-all;
+  }
+  
+  /* Style for the delete button */
+  .todo-app .delete-btn {
+    font-size: 16px;
+    color: white;
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .todo-app .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  

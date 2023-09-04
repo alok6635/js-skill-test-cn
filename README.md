@@ -1,1 +1,0 @@
-# js-skill-test-cn
