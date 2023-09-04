@@ -1,0 +1,10 @@
+.bulb-off{
+    width: 265px;
+    height: 400px;
+    background: url('../img/lightoff.png');
+}
+.bulb-on{
+    width: 265px;
+    height: 400px;
+    background: url('../img/lighton.png');
+}

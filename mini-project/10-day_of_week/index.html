@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day of the week</title>
+</head>
+<body>
+   <script>
+var weekDay = ['Sunday','Monday', 'Tuesday','Wednesday','Thursday','Friday','Saturday'];
+
+function returnDay(x){
+  return (x < 1) || (x > 7) ? null : weekDay[x];
+}
+
+console.log(returnDay(3));
+   </script>
+</body>
+</html>
